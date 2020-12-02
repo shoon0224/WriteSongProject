@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:text="제목"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/etTitle"
+            android:layout_width="342dp"
+            android:layout_height="84dp"
+            android:hint="제목을 입력하세요"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="주제"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="342dp"
+            android:layout_height="222dp"
+            android:hint="작곡할 주제를 적어주세요"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="방 생성"
+            android:background="@drawable/button"/>
+    </LinearLayout>
+
+</LinearLayout>
